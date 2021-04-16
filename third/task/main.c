@@ -106,8 +106,7 @@ int main() {
     printf("Enter array\n");
     for(int i = 0; i < n; i++) {
         for(int j = 0; j < m; j++) {
-            scanf(
-                    "%i", &array[i][j]);
+            scanf("%i", &array[i][j]);
         }
     }
 
