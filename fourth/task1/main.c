@@ -13,7 +13,7 @@ int strSize(char *str) {
     return size;
 }
 
-char separators[] = ",.![] ";
+char separators[] = ", .![]\n";
 
 int isSeparator(char sym) {
     for(int i = 0; i < strSize(separators); i++) {
@@ -90,6 +90,7 @@ void addToGroup(char *word) {
 
     if (!isContain) {
         int i = groupNow++;
+
         group[i][groupSize[i]++] = word;
     }
 }
@@ -105,16 +106,16 @@ int main() {
     int bufferSize = 1024;
     char buffer[1024];
     while (fgets(buffer, bufferSize, file) != NULL) {
-        char word[64];
+        char word[128];
         int yk = 0;
 
         for(int i = 0; i < bufferSize; i++) {
-            if (buffer[i + 1] == NULL) {
+            if (buffer[i] == NULL) {
                 break;
             }
 
             if (isSeparator(buffer[i])) {
-                if (yk != 0) {
+                if (yk) {
                     word[yk] = '\0';
 
                     addToGroup(strCopy(word));
@@ -143,5 +144,14 @@ int main() {
         printf("\n");
     }
 
+
+    
+    for(int i = 0; i < groupNow; i++) {
+        for(int j = 0; j < groupSize[i]; j++) {
+            free(group[i][j]);
+        }
+    }
+
+    fclose(file);
     return 0;
 }

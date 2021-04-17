@@ -5,14 +5,13 @@
 //#include <stdlib.h>
 //#include <time.h>
 
-/*
 void deleteArray(int n, int** array) {
     for(int i = 0; i < n; i++) {
         free(array[i]);
     }
     free(array);
 }
-*/
+
 
 void printArray(int n, int m, int **array, char* text) {
     printf("%s\n", text);
@@ -122,5 +121,7 @@ int main() {
     while(findAnyToDelete);
 
     printArray(n, m, array, "array after algorithm");
+
+    deleteArray(n, array);
     return 0;
 }

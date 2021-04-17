@@ -137,5 +137,6 @@ int main() {
         printf("Expression isn`t correct\n");
     }
 
+    free(expression);
     return 0;
 }
