@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="task"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task">
+				<Option output="C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug/task.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug/Makefile&quot;  VERBOSE=1 task"/>
+					<CompileFile command="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="task/fast">
+				<Option output="C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug/task.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug/Makefile&quot;  VERBOSE=1 task/fast"/>
+					<CompileFile command="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/theboatman/SomeMagikToProgramming/Mingw/mingw32/bin/mingw32-make.exe -f &quot;C:/theboatman/Coding/Unik/Labs/C/second/task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/theboatman/Coding/Unik/Labs/C/second/task/main.c">
+			<Option target="task"/>
+		</Unit>
+		<Unit filename="C:/theboatman/Coding/Unik/Labs/C/second/task/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
